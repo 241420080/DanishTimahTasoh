@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #efe2c6;
+}
+
+/* NAVBAR */
+nav {
+    background-color: #e6a98b;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin: 0 20px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/* CONTAINER */
+.container {
+    width: 900px; /* FIXED supaya sama macam PDF */
+    margin: 30px auto;
+}
+
+/* SECTION */
+.section {
+    margin-bottom: 50px;
+}
+
+/* TITLE */
+.title {
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    width: 200px;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+/* TEXT */
+.text {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+/* BIOGRAFI LAYOUT */
+.bio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* PROFILE IMAGE */
+.profile-img {
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* CENTER IMAGE */
+.center-img {
+    display: block;
+    margin: 20px auto;
+    width: 500px;
+    border-radius: 10px;
+}
+
+/* GALERI LAYOUT */
+.galeri {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* SMALL SPACING */
+ul {
+    padding-left: 20px;
+    font-size: 16px;
+    line-height: 1.8;
+}
